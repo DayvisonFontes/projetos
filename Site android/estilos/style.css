@@ -1,0 +1,137 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family: "idroid";
+    src: url('../fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e6dfc4;
+    margin: 0%;
+    padding: 0p;
+}
+
+header { /* cabeçalho */
+    padding: 10px;
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(to bottom, #39CD7B, #268952, #1A5C38 );
+    font-family: 'Bebas Neue';
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.527);
+}
+
+header > h1 {
+    font-weight: normal;
+}
+
+header > nav {
+    padding: 5px;
+    text-align: left;
+}
+
+nav > a {
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+nav > a:hover {
+    text-decoration: none;
+    background: #2b975c;
+    transition: 0.50s;
+    color: black;
+    border-radius: 20px;
+}
+
+main { /* conteúdo principal */
+    padding: 10px;
+    min-width: 280px;
+    max-width: 800px;
+    margin: auto;
+    background-color: white;
+    border-radius: 0px 0px 20px 20px;
+    font-size: 1.2em;
+}
+
+main > h2 {
+    font-family: 'idroid';
+    color: #175834;
+}
+
+main > article > section > h3 {
+    font-family: 'idroid';
+    color: #175834;
+    background-image: linear-gradient(to right, #61da97, #87dfae, white);
+}
+
+div#titulo-extra > h4 {
+    margin-left: 10px;
+}
+
+ul#lista > li > a {
+    color: black;
+}
+
+ul#lista {
+    color: black;
+    columns: 2;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+div#container-video {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: #269257;
+    margin-bottom: 10px;
+}
+
+div#titulo-extra {
+    background-color: #175834;
+    border-radius: 20px 20px 0px 0px;
+    padding: 1px;
+    color: white;
+    box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.349);
+}
+
+section#extra {
+    border-radius: 0px 0px 20px 20px;
+    padding: 3%;
+    background-color: #71c09579;
+    box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.349);
+}
+
+a {
+    text-decoration: none;
+    color: #2b945a;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p {
+    text-indent: 30px;
+}
+
+footer{ /* cria o rodapé */
+    margin-top: 20px;
+    background-color: #175834;
+    display: flex;
+    justify-content: center;
+}
+
+footer > p {
+    text-align: center;
+    color: white;
+}
