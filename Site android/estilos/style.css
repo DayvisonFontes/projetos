@@ -18,6 +18,7 @@ body {
 
 header { /* cabeçalho */
     padding: 10px;
+    min-width: 400px;
     text-align: center;
     color: white;
     background-image: linear-gradient(to bottom, #39CD7B, #268952, #1A5C38 );
