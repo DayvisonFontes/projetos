@@ -50,7 +50,7 @@ nav > a:hover {
 
 main { /* conteúdo principal */
     padding: 10px;
-    min-width: 280px;
+    min-width: 400px;
     max-width: 900px;
     margin: auto;
     background-color: white;
