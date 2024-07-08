@@ -6,6 +6,7 @@
 
 .white-bg {
     background-color: #fff;
+    color: var(--cor-primaria);
 }
 
 .main-content {
