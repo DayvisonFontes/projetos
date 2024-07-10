@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 html {
@@ -84,4 +85,23 @@ table td, table th {
 
 tfoot td, table th {
     background-color: lightgray;
+}
+
+footer {
+    background-color: #fff;
+    color: var(--cor-primaria);
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    padding: 2rem;
+}
+
+footer a {
+    color: inherit;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
