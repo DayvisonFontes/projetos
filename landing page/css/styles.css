@@ -238,8 +238,8 @@
         content: '☰';
         position: fixed;
         z-index: 2;
-        top: 2rem;
-        right: 5rem;
+        top: 3rem;
+        right: 3rem;
         background-color: var(--cor-primaria);
         color: #fff;
         font-size: 3rem;
