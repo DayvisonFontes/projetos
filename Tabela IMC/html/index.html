@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo para exercícios</title>
+    <link rel="stylesheet" href="../assets/css/modelo.css">
+</head>
+
+<body>
+    <section class="container">
+        <h1>Tabela IMC</h1>
+        <div class="grid">
+            <div>
+                <h3>IMC</h3>
+                <ul>
+                    <li>Menos que 18,5</li>
+                    <li>Entre 18,5 e 24,9</li>
+                    <li>Entre 25 e 29,9</li>
+                    <li>Entre 30 e 34,9</li>
+                    <li>Entre 35 e 39,9</li>
+                    <li>Mais do que 40</li>
+                </ul>
+            </div>
+            <div>
+                <h3>Resultado</h3>
+                <ul>
+                    <li>Abaixo do peso</li>
+                    <li>Peso normal</li>
+                    <li>Sobrepeso</li>
+                    <li>Obesidade grau 1</li>
+                    <li>Obresidade Grau 2</li>
+                    <li>Obesidade grau 3</li>
+                </ul>
+            </div>
+        </div>
+
+        <form action="" class="form">
+            <label for="peso">Peso:</label>
+            <input type="text" id="peso" placeholder="Peso em quilos: 80, 90, 100 etc...">
+
+            <label for="altura">Altura:</label>
+            <input type="text" id="altura" placeholder="Altura em metros: 1.80, 1.50 etc...">
+
+            <button id="calcular">Calcular</button>
+
+            <div class="resultado"></div>
+        </form>
+    </section>
+
+    <script src="../assets/js/main.js"></script>
+</body>
+
+</html>
