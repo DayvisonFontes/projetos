@@ -45,10 +45,3 @@ class ValidaCPF {
     }
 }
 
-// const validacpf = new ValidaCPF('20088773701');
-
-// if (validacpf.valida()) {
-//     console.log('CPF válido');
-// } else {
-//     console.log('CPF inválido');
-// }
