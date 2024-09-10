@@ -1,6 +1,5 @@
 import GeraCPF from './modules/module-cpf/GeraCPF'
 import './assets/css/modelo.css';
-import { cpf } from 'cpf-cnpj-validator';
 
 const btn = document.querySelector('.btn');
 const btnLimpar = document.querySelector('.limpar');
