@@ -9,3 +9,5 @@ Projetos pessoais
 <a href="timer/html/timer.html" target="_blank" rel="external">Timer</a> <br>
 <a href="calculadora/html/modelo.html" target="_blank" rel="external">Calculadora</a> <br>
 <a href="formulario/html/modelo.html" target="_blank" rel="external">Validação de formulário</a> <br>
+<a href="gerador de cpf/public/index.html" target="_blank" rel="external">Gerador de CPF's validos</a> <br>
+<a href="imersão dev alura/assets/index.html" target="_blank" rel="external">Imersão alura</a> <br>
