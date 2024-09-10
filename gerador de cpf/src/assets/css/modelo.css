@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(0, 192, 192);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+    width: 500px;
+    background-color: rgb(222, 221, 221);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.container h1 {
+    font-size: 40px;
+    padding: 10px;
+}
+
+.container p {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.container-btn {
+    display: flex;
+    width: 100%;
+}
+
+.btn, .limpar {
+    padding: 5px;
+    width: 50%;
+    margin: 2px;
+}
+
+.cpf-gerado {
+    margin-top: 10px;
+    width: 80%;
+    text-align: center;
+    font-size: 25px;
+    background-color: aliceblue;
+}
+
+.com-borda {
+    border: 1px solid black;
+}
