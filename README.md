@@ -11,4 +11,3 @@ Projetos pessoais
 <a href="formulario/html/modelo.html" target="_blank" rel="external">Validação de formulário</a> <br>
 <a href="gerador de cpf/public/index.html" target="_blank" rel="external">Gerador de CPF's validos</a> <br>
 <a href="imersão dev alura/assets/index.html" target="_blank" rel="external">Imersão alura</a> <br>
-<a href="teste/index.html" target="_blank" rel="external">Teste</a> <br>
